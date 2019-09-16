@@ -1,0 +1,45 @@
+{
+  "name": "es6-lottery",
+  "version": "1.0.0",
+  "description": "es6彩票项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjq1994/ES6-lottery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wjq1994/ES6-lottery/issues"
+  },
+  "homepage": "https://github.com/wjq1994/ES6-lottery#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/register": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^3.0.0",
+    "gulp-live-server": "0.0.31",
+    "gulp-livereload": "^4.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "require-dir": "^1.2.0",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^4.40.2",
+    "webpack-stream": "^5.2.1",
+    "yargs": "^14.0.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "core-js": "^2.6.9"
+  }
+}
